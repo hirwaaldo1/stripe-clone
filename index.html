@@ -4,13 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./dist/output.css" rel="stylesheet">
-  <script src="Gradient.js" ></script>
 </head>
-<body class="relative overflow-x-hidden">
-    <div class="absolute top-0 -z-10  w-screen transform">
-        <!-- transform: skewY(-17deg);
-        scale: 2; -->
-        <!-- <canvas id="gradient-canvas" style="width:100vw;height:100vh"></canvas> -->
+<body class="relative  overflow-x-hidden">
+    <div class="absolute top-0 -mt-[137px]  -z-10 sm:hidden block w-[200%]  transform">
+        <img src="./img/download.png" class="transform  -skew-y-[17deg]  relative  " />
+    </div>
+    <div class="absolute top-0 -z-10 sm:block hidden  w-screen transform">
         <img src="./img/download.png" class="transform  -skew-y-[17deg]  scale-x-[1]  sm:skew-y-0  sm:rotate-[350deg] -top-[1rem] sm:scale-x-[3] sm:-top-[10rem] relative  -translate-y-[50px]" />
     </div>
     <header class="flex pt-4 justify-between px-5 sm:px-0 sm:justify-around lg:m-auto ">
@@ -131,7 +130,7 @@
         </div>
       
     </section>
-    <section class="grid grid-cols-2  md:grid-cols-4 gap-6  mt-10 sm:mt-40  my-2 sm:my-40 w-fit  sm:m-auto">
+    <section class="grid grid-cols-3 m-auto w-fit  md:grid-cols-4 gap-6  mt-10 sm:mt-40  my-2 sm:my-40 w-fit  sm:m-auto">
         <div class="text-center flex justify-center">
             <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -323,7 +322,7 @@
             <p class="text-4xl leading-10">A fully integrated suite of <br/> payments products</p>
             <div class="mt-[30px] grid grid-cols-2  w-70 gap-14">
                 <div class="w-fit m-auto">
-                     <p class="w-fit text-secondary-300 text-lg mb-5">
+                     <p class="w-3/4 sm:w-fit text-secondary-300 text-lg mb-5 ">
                     We bring together everything that’s required to build websites and apps that accept payments and send payouts globally. Stripe’s<br/> products power payments for online and in-person retailers, subscriptions businesses, software platforms and marketplaces, and everything in between.
                     </p>
                 </div>
@@ -354,7 +353,7 @@
             </div>
         </div>
     </section>
-    <section class="  z-50 bg-secondary-900 w-[200%]  sm:w-[110%] -ml-9 transform rotate-[357deg]  relative -mt-6 p-20 sm:p-44"> 
+    <section class="  z-50 bg-secondary-900 w-[200%]   sm:w-[110%] -ml-9 transform rotate-[357deg]  relative -mt-6 p-20 sm:p-44"> 
         <div class="flex transform rotate-[3deg] gap-9 m-0 sm:m-auto  w-fit">
             <div>
                 <h3 class="text-primary-900 text-lg font-semibold mb-5">Designed for developers</h3>
@@ -408,7 +407,7 @@
         <img src="./img/12-removebg-preview.png" class="absolute -bottom-14 z-50 transform rotate-[182deg] right-0 -mt-4.2 w-[40vh]" />
       
     </section>
-    <section class="p-10 sm:p-32  m-auto z-40 bg-white  transform rotate-[358deg] -ml-5 w-[200%] sm:-ml-3  sm:w-full ">
+    <section class="p-10 sm:p-32  m-auto z-40 bg-white  transform rotate-[358deg] -ml-5 w-[200%]  sm:-ml-3  sm:w-full ">
         <div class="transform rotate-[2deg] m-auto w-fit">
             <h4 class="text-primary-900 text-lg font-semibold mb-5">Why Stripe</h4>
             <h3 class="font-semibold text-2xl sm:text-4xl leading-10 mb-7">
@@ -448,14 +447,14 @@
         </div>
      
     </section>
-    <section class=" bg-secondary-900 overflow-y-auto w-[200%] sm:w-[120%] -z-30 -ml-9  relative -mt-9 p-20 sm:p-48 "> 
+    <section class=" bg-secondary-900 overflow-y-auto w-[200%]  sm:w-[120%] -z-30 -ml-9  relative -mt-9 p-20 sm:p-48 "> 
         <div class="w-fit ">
             <h3 class="text-[#00d4ff] text-lg font-semibold mb-5">Global scale</h3>
             <h2 class="text-white text-4xl leading-10 mb-7">The backbone for <br/> internet business</h2>
-            <p class="text-secondary-700 text-lg w-[70vh]">
+            <p class="text-secondary-700 text-lg w-3/4 sm:w-[70vh]">
                 For ambitious companies around the world, Stripe makes moving money as simple, borderless, and programmable as the rest of the internet. Our teams are based in dozens of offices around the world and we process hundreds of billions of dollars each year for startups to Fortune 500s.
             </p>
-            <div class="flex flex-wrap md:flex-nowrap mt-12 gap-12">
+            <div class="flex flex-col sm:flex-row md:flex-nowrap mt-12 gap-12">
                 <div>
                     <p class="text-white text-3xl mb-4 leading-none border-l border-primary-900  pl-4" >250M+</p>
                     <p class="text-secondary-700 text-lg pl-4">API requests per day, peaking at <br/> 13,000 request a second</p>
@@ -536,7 +535,7 @@
           
         </div>
     </section>
-    <section class=" pl-10 sm:pl-32  bg-[#F6F9FC] w-[200%] sm:w-full transform rotate-[355deg] relative mt-[200px] bg-opacity-70 pt-[150px] pb-[200px]">
+    <section class=" pl-10 sm:pl-32  bg-[#F6F9FC] w-[200%]  sm:w-full transform rotate-[355deg] relative mt-[200px] bg-opacity-70 pt-[150px] pb-[200px]">
         <img src="./img/12-removebg-preview.png" class="absolute -top-[50px] hidden sm:block transform rotate-[5deg] -mt-[21px] w-[40vh]" />
         <img src="./img/12-removebg-preview.png" class="absolute -top-[50px] hidden sm:block transform rotate-[180deg] right-0 -mt-[21px] w-[40vh]" />
         <div class="grid grid-cols-1 md:grid-cols-4 sm:gap-[30px] transform rotate-[5deg]">
@@ -638,9 +637,5 @@
         <div class="border-l-[2px] border-dashed border-r-[2px] w-[310px] h-[100vh]">
         </div>
     </div>
-    <script>
-        var gradient = new Gradient()
-        gradient.initGradient('#gradient-canvas');
-    </script>
 </body>
 </html>
