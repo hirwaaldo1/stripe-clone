@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale = 1">
   <link href="./dist/output.css" rel="stylesheet">
 </head>
 <body class="relative  overflow-x-hidden">
@@ -41,7 +41,6 @@
         </button>
         
     </header>
-    
     <section class="px-2 mt-16  flex m-auto w-fit  md:mt-36  md:pl-32">
         <div>
             <p class="text-4xl md:text-7xl font-bold leading-10 md:leading-tight bg-clip-text text-transparent bg-gradient-to-tr opacity-[0.9] from-secondary-50 to-transparent ">
@@ -357,10 +356,10 @@
         <div class="flex transform rotate-[3deg] gap-9 m-0 sm:m-auto  w-fit">
             <div>
                 <h3 class="text-primary-900 text-lg font-semibold mb-5">Designed for developers</h3>
-                <h2 class="text-white text-4xl leading-10 mb-7">
+                <h2 class="text-white w-3/4 sm:w-fit text-4xl leading-10 mb-7">
                     The world’s most powerful <br/> and easy-to-use APIs
                 </h2>
-                <p class="w-fit text-secondary-300 text-lg mb-5">
+                <p class="w-3/4 sm:w-fit text-secondary-300 text-lg mb-5">
                     We agonize over the right abstractions so your teams <br/> don’t need to stitch together disparate systems or <br/> spend months integrating payments functionality.
                 </p>
                 <button  class="flex bg-[#00D4FF] transition-all hover:bg-opacity-60 duration-500 group pl-4 pr-3 pt-1 pb-1.5 gap-1.5 w-fit  rounded-2xl">
@@ -371,7 +370,7 @@
                         <img  class="relative group-hover:translate-x-[1.55px] translate-x-0 transition-all ease-in-out duration-75" src="./img/3-removebg-preview (1).png" width="12px" height="12px"/>
                     </div>
                 </button>
-                <div class="flex w-fit mt-12 sm:space-x-7 flex-wrap">
+                <div class="flex w-fit flex-col sm:flex-row mt-12 sm:space-x-7 sm:flex-wrap">
                     <div>
                         <img class="pl-4"  src="./img/icon1.PNG"/>
                         <h4 class="text-white mb-2  border-l border-primary-900  pl-4 ">Tools for every stack</h4>
@@ -401,19 +400,19 @@
                 </div>
             </div>
             <div>
-                <img src="./img/21.PNG" class="w-full  hidden sm:block h-90" />
+                <img src="./img/21.PNG" class="w-full  hidden sm:block lg:h-[100%] h-90 " />
             </div>
         </div>
         <img src="./img/12-removebg-preview.png" class="absolute -bottom-14 z-50 transform rotate-[182deg] right-0 -mt-4.2 w-[40vh]" />
       
     </section>
-    <section class="p-10 sm:p-32  m-auto z-40 bg-white  transform rotate-[358deg] -ml-5 w-[200%]  sm:-ml-3  sm:w-full ">
+    <section class="p-10 sm:p-32  w-fi m-auto z-40 bg-white  transform rotate-[358deg] -ml-5 w-[200%]  sm:-ml-3  sm:w-full ">
         <div class="transform rotate-[2deg] m-auto w-fit">
             <h4 class="text-primary-900 text-lg font-semibold mb-5">Why Stripe</h4>
-            <h3 class="font-semibold text-2xl sm:text-4xl leading-10 mb-7">
+            <h3 class="font-semibold text-2xl sm:text-4xl leading-10 mb-7 w-2/4 sm:w-fit ">
                 A technology-first approach to payments and <br/> finance
             </h3>
-            <div class="grid grid-cols-1 md:grid-cols-4 w-fit mt-12 space-x-0 sm:space-x-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 max-w-6xl m-auto mt-12 space-x-0 sm:space-x-12">
                 <div>
                     <img class="pl-4"  src="./img/icon3.PNG"/>
                     <h4 class="text-black mb-2 border-l border-primary-900  pl-4">Tools for every stack</h4>
@@ -448,13 +447,13 @@
      
     </section>
     <section class=" bg-secondary-900 overflow-y-auto w-[200%]  sm:w-[120%] -z-30 -ml-9  relative -mt-9 p-20 sm:p-48 "> 
-        <div class="w-fit ">
+        <div class="w-fit  m-auto">
             <h3 class="text-[#00d4ff] text-lg font-semibold mb-5">Global scale</h3>
             <h2 class="text-white text-4xl leading-10 mb-7">The backbone for <br/> internet business</h2>
-            <p class="text-secondary-700 text-lg w-3/4 sm:w-[70vh]">
+            <p class="text-secondary-700 text-lg w-2/4 sm:w-[70vh] ">
                 For ambitious companies around the world, Stripe makes moving money as simple, borderless, and programmable as the rest of the internet. Our teams are based in dozens of offices around the world and we process hundreds of billions of dollars each year for startups to Fortune 500s.
             </p>
-            <div class="flex flex-col sm:flex-row md:flex-nowrap mt-12 gap-12">
+            <div class="flex flex-col  sm:flex-row md:flex-nowrap mt-12 gap-12">
                 <div>
                     <p class="text-white text-3xl mb-4 leading-none border-l border-primary-900  pl-4" >250M+</p>
                     <p class="text-secondary-700 text-lg pl-4">API requests per day, peaking at <br/> 13,000 request a second</p>
@@ -475,13 +474,7 @@
         </div>
         <img src="./img/3.PNG" class="absolute top-0 max-h-fit right-0 -z-30"  />
     </section>
-    <section>
-       <div class="">
-        <div>
 
-        </div>
-       </div>
-    </section>
     <section class="m-auto">
         <div class="flex  w-fit justify-center max-w-5xl space-x-16 pl-5 sm:pl-0 m-auto my-20">
             <div class="m-auto w-fit">
@@ -536,9 +529,9 @@
         </div>
     </section>
     <section class=" pl-10 sm:pl-32  bg-[#F6F9FC] w-[200%]  sm:w-full transform rotate-[355deg] relative mt-[200px] bg-opacity-70 pt-[150px] pb-[200px]">
-        <img src="./img/12-removebg-preview.png" class="absolute -top-[50px] hidden sm:block transform rotate-[5deg] -mt-[21px] w-[40vh]" />
-        <img src="./img/12-removebg-preview.png" class="absolute -top-[50px] hidden sm:block transform rotate-[180deg] right-0 -mt-[21px] w-[40vh]" />
-        <div class="grid grid-cols-1 md:grid-cols-4 sm:gap-[30px] transform rotate-[5deg]">
+        <img src="./img/12-removebg-preview.png" class="absolute -top-[50px] hidden sm:block transform rotate-[5deg] -left-32 -mt-[21px] w-[40vh]" />
+        <img src="./img/12-removebg-preview.png" class="absolute -top-[50px] hidden sm:block transform rotate-[180deg] -right-44 -mt-[21px] w-[40vh]" />
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-11 sm:m-auto w-fit sm:gap-36 transform rotate-[5deg]">
             <div>
                 <svg viewBox="0 0 60 25" xmlns="http://www.w3.org/2000/svg" width="60" height="25" class="UserLogo variant-- "><title>Stripe logo</title><path fill="var(--userLogoColor, #0A2540)" d="M59.64 14.28h-8.06c.19 1.93 1.6 2.55 3.2 2.55 1.64 0 2.96-.37 4.05-.95v3.32a8.33 8.33 0 0 1-4.56 1.1c-4.01 0-6.83-2.5-6.83-7.48 0-4.19 2.39-7.52 6.3-7.52 3.92 0 5.96 3.28 5.96 7.5 0 .4-.04 1.26-.06 1.48zm-5.92-5.62c-1.03 0-2.17.73-2.17 2.58h4.25c0-1.85-1.07-2.58-2.08-2.58zM40.95 20.3c-1.44 0-2.32-.6-2.9-1.04l-.02 4.63-4.12.87V5.57h3.76l.08 1.02a4.7 4.7 0 0 1 3.23-1.29c2.9 0 5.62 2.6 5.62 7.4 0 5.23-2.7 7.6-5.65 7.6zM40 8.95c-.95 0-1.54.34-1.97.81l.02 6.12c.4.44.98.78 1.95.78 1.52 0 2.54-1.65 2.54-3.87 0-2.15-1.04-3.84-2.54-3.84zM28.24 5.57h4.13v14.44h-4.13V5.57zm0-4.7L32.37 0v3.36l-4.13.88V.88zm-4.32 9.35v9.79H19.8V5.57h3.7l.12 1.22c1-1.77 3.07-1.41 3.62-1.22v3.79c-.52-.17-2.29-.43-3.32.86zm-8.55 4.72c0 2.43 2.6 1.68 3.12 1.46v3.36c-.55.3-1.54.54-2.89.54a4.15 4.15 0 0 1-4.27-4.24l.01-13.17 4.02-.86v3.54h3.14V9.1h-3.13v5.85zm-4.91.7c0 2.97-2.31 4.66-5.73 4.66a11.2 11.2 0 0 1-4.46-.93v-3.93c1.38.75 3.1 1.31 4.46 1.31.92 0 1.53-.24 1.53-1C6.26 13.77 0 14.51 0 9.95 0 7.04 2.28 5.3 5.62 5.3c1.36 0 2.72.2 4.09.75v3.88a9.23 9.23 0 0 0-4.1-1.06c-.86 0-1.44.25-1.44.9 0 1.85 6.29.97 6.29 5.88z" fill-rule="evenodd"></path></svg>
                 <p class="text-sebg-secondary-900 mb-[1px] mt-[10px]">United States</p>
